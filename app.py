@@ -3,10 +3,8 @@ import pydeck as pdk
 import polyline
 
 
-# get query parameters
-# ?polygon=
+# get query parameters ?polyline=
 query_parameters = st.experimental_get_query_params()
-
 
 def decode_polyline(poly_str):
     """Decodes a Google Maps encoding polyline string."""
